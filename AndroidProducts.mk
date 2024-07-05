@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rosy.mk
+    $(LOCAL_DIR)/qassa_rosy.mk
+    
+COMMON_LUNCH_CHOICES := \
+    qassa_rosy-user \
+    qassa_rosy-userdebug \
+    qassa_rosy-eng

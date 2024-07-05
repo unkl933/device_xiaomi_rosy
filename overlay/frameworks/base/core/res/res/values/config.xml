@@ -589,4 +589,8 @@
     <!-- Telephony qualified networks service package name to bind to by default. -->
     <string name="config_qualified_networks_service_package">vendor.qti.iwlan</string>
 
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">90.0px</dimen>
+    <dimen name="status_bar_height_landscape">86.0px</dimen>
+
 </resources>
